@@ -1,0 +1,36 @@
+#navTrello{
+  background-color: #0066A5;
+  width: 100%;
+  height: 7vh;
+}
+
+nav img{
+  width: 10%;
+}
+
+#inputSearch{
+  width: 30%;
+}
+
+.icons{
+  color: #fff;
+  width: 17%;
+}
+
+.fa-plus, 
+.fa-info-circle{
+  background-color: #3488BA;
+  border-radius: 12%;
+  padding: 5%;
+}
+
+.fa-bell{
+  background-color: #ED5940;
+  border-radius: 12%;
+  padding: 5%;
+}
+
+.fa-user-circle{
+  font-size: 25px;
+  padding: 2%;
+}
