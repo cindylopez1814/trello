@@ -1,6 +1,7 @@
 body{
   background: rgb(0, 121, 191);
   color: #fff;
+  font-family: 
 }
 
 #navTrello{
@@ -164,24 +165,40 @@ nav img{
 
 .subMenu{
   display: inherit;
-  padding: 1%;
+  width: auto;
 }
 
-.subMenu i{
-  font-size: 12px;
-  padding: 2% 5%;
+.sub i{
+  font-size: 12px;    
+}
+
+.sub{
+  width: auto;
+  margin: 1%;
+  padding: 3px;
+}
+
+.sub:hover{
+  background: rgba(0,0,0,.15);
+  border-radius: 3px;
 }
 
 .config{
-  position: absolute;
-  float: right;
-  right: 20px;
-  padding: 1%;
+  margin: 1% 0%;
   font-size: 12px;
+}
+
+.config:hover{
+  background: rgba(0,0,0,.15);
+  border-radius: 3px;
 }
 
 a{
   color: #fff;
   font-size: 14px;
   text-decoration-line: underline;
+}
+
+a:hover{
+  color: #fff;
 }
